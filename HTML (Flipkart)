@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+<div class="navbar">
+    <div class="nav-logo">
+    </div>
+        <div class="searchbar">
+        <button>
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+        <input class="searchtext" type="text" placeholder="Search For Brands,Products And More">
+    </div>
+    <div class="login bg-color">
+                <i class="fa-regular fa-user">
+        <div class="login-text bg-color"></div>
+        </i>login
+        <span class="arrow">
+            <i class="fa-solid fa-chevron-down"></i>
+        </span>
+</div>
+<div class="div-cart">
+    <span class="cart">
+<i class="fa-solid fa-cart-shopping"></i>
+</span>
+<span class="cart-logo">
+    Cart
+</span>
+</div>
+<div class="store">
+    <span class="store-logo">
+    <i class="fa-solid fa-store"></i>
+</span>
+<span class="store-text">
+    Become A Seller
+</span>
+</div>
+<div class="dots">
+    <i class="fa-solid fa-ellipsis-vertical"></i>
+</div>
+</div>
+    </div>
+    <div class="box">
+        <div class="box1">
+        <span class="image1">
+            <img src="https://rukminim2.flixcart.com/flap/80/80/image/29327f40e9c4d26b.png?q=100">
+            Grocery
+        </span>
+        <span class="image2">
+            <img src="https://rukminim2.flixcart.com/flap/80/80/image/22fddf3c7da4c4f4.png?q=100">
+            Mobiles
+        </span>
+        <span class="image3">
+            <img src="https://rukminim2.flixcart.com/fk-p-flap/80/80/image/0d75b34f7d8fbcb3.png?q=100">
+                <span class="text4">
+                    Fashion
+                </span>
+                <span class="arrow1">
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </span>
+        </span>
+               
+        </span>
+        <span class="image4">
+            <img src="https://rukminim2.flixcart.com/flap/80/80/image/69c6589653afdb9a.png?q=100">
+            Electronics
+        </span>
+        <span class="image5">
+            <img src="https://rukminim2.flixcart.com/flap/80/80/image/ab7e2b022a4587dd.jpg?q=100">
+            <span class="text5">
+                Home & Furniture
+            </span>
+        </span>
+        <span class="image6">
+            <img src="https://rukminim2.flixcart.com/fk-p-flap/80/80/image/0139228b2f7eb413.jpg?q=100">
+            <span class="text6">
+                Appliances
+            </span>
+        </span>
+        <span class="image7">
+            <img src="https://rukminim2.flixcart.com/flap/80/80/image/71050627a56b4693.png?q=100">
+            <span class="text7">
+            Travel</span>
+        </span>
+        <span class="image8">
+            <img src="https://rukminim2.flixcart.com/flap/80/80/image/dff3f7adcf3a90c6.png?q=100">
+            <span class="text8">
+                Beauty,Style And More
+            </span>
+        </span>
+        <span class="image9">
+            <img src="https://rukminim2.flixcart.com/fk-p-flap/80/80/image/05d708653beff580.png?q=100">
+            <span class="text9">
+                Two Wheelers
+            </span>
+        </span>
+    </div>
+    <div class="box3">
+        <div class="container-1">
+        <img src="https://rukminim1.flixcart.com/fk-p-flap/1600/270/image/9e9aa250dfecdbc3.jpg?q=20">
+</div>
+<div class="box4">
+    <h2 class="heading">
+        Best Of Electronics
+    </h2>
+    <div class="products">
+                    <div class="product1">
+                    <img class="image-1" src="apple.png">
+                    <span class="img-text-1">
+                    Apple AirPods
+                    </span>
+                    </div>
+                    <div class="product-2">
+                        <img class="image-2" src="whatch.png">
+                    <span class="img-text-2">
+                            Fire-bolt Pro +
+                        </span>
+                    </div>
+                    <div class="product-3">
+                        <img class="image-3" src="https://rukminim2.flixcart.com/image/200/200/kx50gi80/pen/h/z/k/119766-flair-original-imag9nzubznagufg.jpeg?q=70">
+                        <span class="image-text-3">
+                            Top Selling Stationary 
+                        </span>
+                    </div>
+                    <div class="product-4">
+                        <img class="image-4" src="https://rukminim2.flixcart.com/image/612/612/jbb3wcw0/security-software/h/7/b/k7-total-security-10-pc-1-year-single-cd-single-key-valid-for-original-imafym8fstpcf6xg.jpeg?q=70">
+                        <span class="image-text-4">
+                            K7 Total Security 10 User 1 Year
+                        </span>
+                    </div>
+                    <div class="product-5">
+                        <img class="image-5" src="https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/5/a/d/-original-imagxp8udhcfyxhy.jpeg?q=70">
+                        <span class="image-text-5">
+                            boAt Wave Flex Connect with 1.83" HD Display,Bluetooth ...
+                        </span>
+                    </div>
+                    <div class="product-6">
+                        <img class="image-6" src="https://rukminim2.flixcart.com/image/612/612/xif0q/printer/q/m/u/-original-imags2yrktrsf4f9.jpeg?q=70">
+                        <span class="image-text-6">
+                            Canon PIXMA MegaTank/Ink Efficient G3012 Multi-function...
+                        </span>
+                    </div>
+                    </div>
+                    <div class="box-5">
+                        <h2 class="heading-2">
+                            Beauty,Food,Toys & more
+                        </h2>
+                        <div class="products-1">
+                            <div class="product-one">
+                                <img  class="image-one" src="https://rukminim2.flixcart.com/image/612/612/xif0q/cycle/k/g/y/bolt-cycles-for-men-with-front-suspension-dual-disc-brake-mtb-original-imah2gx9zp9dc8px.jpeg?q=70">
+                                <span class="image-text-one">
+                                    Urban Terrain
+                                </span>
+                            </div>
+                            <div class="product-two">
+                                <img  class="image-two" src="https://rukminim2.flixcart.com/image/612/612/xif0q/stuffed-toy/r/y/4/sofa-for-kids-soft-plush-mickey-cushion-baby-seat-or-rocking-original-imahfbcfaayrzsr8.jpeg?q=70">
+                                <span class="image-text-two">
+                                    eston Sofa's for Kids
+                                </span>
+                            </div>
+                            <div class="product-three">
+                                <img class="image-three" src="https://rukminim2.flixcart.com/image/612/612/xif0q/stuffed-toy/d/o/b/hot-selling-reversable-cute-plush-big-ears-bunny-premium-quality-original-imagvdwgsrzheqhs.jpeg?q=70">
+                                <span class="image-text-three">
+                                    V VANTRA Hot Selling Reversable Cute Plush Big Ears Bun...
+                                </span>
+                            </div>
+                            <div class="product-four">
+                                <img class="image-four" src="https://rukminim2.flixcart.com/image/612/612/xif0q/action-figure/z/e/q/3-21-pictures-spider-man-projection-watch-for-kids-spiderman-original-imahynyevbmpcmxs.jpeg?q=70">
+                                <span class="image-text-four">
+                                    Ridhimani 21 Pictures Spider Man Projection Watch for K...                               
+                                 </span>
+                            </div>
+                            <div class="product-five">
+                                <img class="image-five" src="https://rukminim2.flixcart.com/image/612/612/jwaztzk0/toy-weapon/u/r/u/hot-fire-soft-bullet-toy-gun-7036-bluekart-online-original-imafdpffqutx3jch.jpeg?q=70">
+                                <span class="image-text-five">
+                                    Aarna Manual Soft Bullet Shooting Pistol Toy Guns & Dar...
+                                </span>
+                            </div>
+                        </div>
+                            <footer class="footer">
+                                <h4 class="heading-footer">
+                                    Top Stories : Brand Directory
+                                </h3>
+                                <div class="para-footer">
+MOST SEARCHED FOR ON FLIPKART: CMF by Nothing Phone 1 | Pocket Bazaar | Xiaomi 14 CIVI | iPhone 15 | Infinix Note 40 5G | iPhone 15 Plus | iPhone 15 Pro Blue | iPhone 15 Pro Black | vivo X Fold3 Pro | Motorola g04s | iPhone 15 Pro Max
+Blue | iPhone 15 Pro Max Black | Vivo x 100 | OnePlus Nord CE 3 Lite 5G | Spoyl Store | SAMSUNG Flip5 | SAMSUNG Fold5 |Flipkart Axis Bank Super Elite Credit card |5G Mobile Phones |Primebook Laptops|Moto Edge 40|Grievance Redressal |OPPO Reno7
+Pro 5G | iPhone 13 | Help Centre | Track Orders | Manage Orders | Return Orders | Gift Cards Store | Flipkart Axis Bank Credit Card |Pay Later
+MOBILES Redmi 12 5G | Realme 12+ 5G | Motorola G84 | Realme C53 | Infinix Smart 8 | Samsung Galaxy S23 5G | Samsung Galaxy S21 FE 5G Qualcomm | vivo V30 | Samsung Galaxy S24 5G | Samsung Galaxy S24+ 5G | iPhone 12 64GB | iPhone 12 Pro
+512GB | iPhone 12 128GB | Vivo Y15 | SAMSUNG Galaxy S21 FE 5G | Infinix HOT 30i | Realme 10 Pro 5G | MOTOROLA G62 5G | Nothing Phone | REDMI Note 12 Pro 5G | Infinix SMART 7 |Vivo Y12| Oppo A12 |Motorola 5g Phone | Realme 5g Smartphone | Apple
+5g Phone | Iqoo 5g Phones | Oneplus 5g Phones | Vivo 5g Phones | Oppo 5g Smart Phones | Oppo F15 | Oppo A31 |Samsung A71 |Samsung A51|Samsung A31|iPhone 11|iPhone 11 Pro |4G Mobile |Nokia Mobile |Samsung Mobile | iphone| Oppo
+Mobile | Vivo Mobile
+CAMERA GoPro Action Camera | Nikon Camera | Canon Camera | Sony Camera | Canon DSLR |Nikon DSLR
+LAPTOPS Asus ROG Ally | MacBook Pro M2 | Premium Laptop | ASUS ROG Strix SCAR 16 (2023) Core i9 13th Gen | ASUS ROG Zephyrus M16 (2023) Core i9 13th Gen | ASUS Zenbook 14 OLED (2022) | Realme Book Prime Core i5 11th Gen | Microsoft Surface
+Go Pentium 128GB | Apple Laptops | Acer Laptops | Lenovo Laptops | Dell Laptops |Asus Laptops |HP Laptops|Gaming Laptops|2 in 1 Laptops|Laptops|Dell latest laptops 2022|HP latest laptops 2022|Infinix INBook Y1 Plus | SAMSUNG Galaxy
+Book3 | 12th Gen Intel Core Laptops
+TVS Nokia TV | Panasonic TV | Thomson TV | Mi X Pro | Realme TV | Motorola TV | OnePlus TVs |LG TV | TV | Sony TV | Samsung TV | Android Television | Iffalcon Tv | Mi TV
+LARGE APPLIANCES: Television | Washing Machines | Refrigerators | Air Conditioners | Electric Cookers | Electric Jug(Heater) / Travel Kettles | Induction Cooktops | Inverters / stabilizer |Irons /Iron Box |Mixer Grinder Juicer |Wet
+Grinders | Chimneys | Microwave Ovens | Vacuum Cleaners | Water Purifier |Fan
+CLOTHING Green bridal lehenga | Tops | Shoes | Sunglasses | Bridal Blouse | Half saree blouse designs | Designer blouses | Blouse designs | Shirts | Cotton saree blouse designs |Tshirts | Jeans |Sarees | Dresses |One pieces |Groom wedding
+sherwani | Designer Salwar Suits | Bra | Cotton simple blouse designs | Banarasi saree blouse designs | Stylish blouse astin design | Track Pant | Blouse neck designs | Kurtas | Party Dresses | Palazzo Suits | Anarkali | Gowns | Cut out dress | Salwar
+Suits | Kurtis | Designer Sarees | Leggings | Shorts | Georgette Sarees | Ethnic Wear | uppada pattu sarees | Blouse back design | Jodhpur pants
+FOOTWEAR: Adidas Shoes | Reebok Shoes | Nike Shoes | Puma Shoes | Boots | Bata Shoes | Woodland Shoes | Skechers Shoes | Sneakers | Womens Boots | Sports Shoes | Loafers | Sandals |Lotto Sports Shoes | Casual Shoes | Womens Skechers
+Shoes | Asics Sports Shoes | Formal Shoes | School Shoes
+GROCERIES PhonePe Grocery Voucher | Hand Wash | Soap | Cashew Nuts | Sunflower Oil | Eggs|Toilet Cleaner |Harpic Toilet Cleaner |Dettol Soap | Mustard Oil |Biscuits |Cheese |Patanjali Atta |Fortune Oil |Aashirvaad Atta |Tea
+BEST SELLING ON FLIPKART Headphones | Best Gas Geyser | Kitchen Geyser | Nutri Blenders | Portable Air Cooler | Best Air Cooler | Bags |Hitachi Refrigerator 3 Door | Books | Toys |Candles|Helmets|Wall Clocks|Baby
+Food | Chocolates | Cycles | Calculators | Lipsticks | Mask | Vertiv UPS | Fastrack Watches | Wallets | Earrings |Gold Coins |Realme Pad Mini |Handbags |conekt SW2 Smartwatch | Mivi DuoPods a350 | Speaker Cleaner
+FURNITURE Furniture | Sofas | Beds | Dining sets | Wardrobes | Mattresses | TV Units | Tables |Chairs |Shelves|Bean Bags|Office Chairs|Computer Table|Office Tables|Red Sofa|Wakefit Beds|White Sofa|Wakefit Mattress|Green Sofa|Black
+Sofa | Brown Sofa
+BGMH: Whey Protein | Homeopathy | Cricket | Cycles | Footballs | Treadmills | Christmas Gifts | Fitness Accessories | Online Guitar | Books Store | Musical Instrument Store | Dabur Chyawanprash | Baidyanath Chyawanprash | Energy Drinks | Toys | Milk Drink
+Mixes | Rakhi | Chyawanprash | Indian Flag | Protein Supplements
+                                </div>
+                            </footer>
+                    </div>
+            </div>
+</body>
+<script src="javascript.js"></script>
+</html>
