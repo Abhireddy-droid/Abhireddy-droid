@@ -1,0 +1,158 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+// Define maximum constants
+#define MAX_PATIENTS 100
+#define MAX_NAME_LENGTH 50
+#define MAX_CONTACT_LENGTH 20
+#define MAX_HISTORY_LENGTH 200
+
+// Structure to store patient details
+typedef struct {
+    int id;
+    char name[MAX_NAME_LENGTH];
+    int age;
+    char gender;
+    char contact[MAX_CONTACT_LENGTH];
+    char medicalHistory[MAX_HISTORY_LENGTH];
+    int appointmentStatus; // 1 if scheduled, 0 if not
+} Patient;
+
+Patient patients[MAX_PATIENTS];
+int patientCount = 0; // To keep track of the number of patients
+
+// Function to add a new patient
+void addPatient() {
+    if (patientCount >= MAX_PATIENTS) {
+        printf("Maximum patient limit reached!\n");
+        return;
+    }
+
+    Patient newPatient;
+    newPatient.id = patientCount + 1;  // Unique ID for the patient
+
+    // Input patient details
+    printf("Enter patient's name: ");
+    getchar(); // to consume the newline character left by previous input
+    fgets(newPatient.name, MAX_NAME_LENGTH, stdin);
+    newPatient.name[strcspn(newPatient.name, "\n")] = '\0'; // Remove newline character
+
+    printf("Enter patient's age: ");
+    scanf("%d", &newPatient.age);
+
+    printf("Enter patient's gender (M/F): ");
+    getchar(); // to consume the newline character
+    scanf("%c", &newPatient.gender);
+
+    printf("Enter patient's contact number: ");
+    getchar(); // to consume the newline character
+    fgets(newPatient.contact, MAX_CONTACT_LENGTH, stdin);
+    newPatient.contact[strcspn(newPatient.contact, "\n")] = '\0'; // Remove newline
+
+    // Record medical history
+    printf("Enter patient's medical history: ");
+    fgets(newPatient.medicalHistory, MAX_HISTORY_LENGTH, stdin);
+    newPatient.medicalHistory[strcspn(newPatient.medicalHistory, "\n")] = '\0';
+
+    newPatient.appointmentStatus = 0; // Initially no appointment scheduled
+
+    // Add patient to the list
+    patients[patientCount] = newPatient;
+    patientCount++;
+
+    printf("Patient added successfully!\n");
+}
+
+// Function to view patient details
+void viewPatients() {
+    if (patientCount == 0) {
+        printf("No patients available!\n");
+        return;
+    }
+
+    for (int i = 0; i < patientCount; i++) {
+        Patient p = patients[i];
+        printf("\nPatient ID: %d\n", p.id);
+        printf("Name: %s\n", p.name);
+        printf("Age: %d\n", p.age);
+        printf("Gender: %c\n", p.gender);
+        printf("Contact: %s\n", p.contact);
+        printf("Medical History: %s\n", p.medicalHistory);
+        printf("Appointment Status: %s\n", (p.appointmentStatus ? "Scheduled" : "Not Scheduled"));
+    }
+}
+
+// Function to schedule an appointment
+void scheduleAppointment() {
+    if (patientCount == 0) {
+        printf("No patients available to schedule an appointment!\n");
+        return;
+    }
+
+    int patientId;
+    printf("Enter the patient ID to schedule an appointment: ");
+    scanf("%d", &patientId);
+
+    if (patientId <= 0 || patientId > patientCount) {
+        printf("Invalid patient ID!\n");
+        return;
+    }
+
+    patients[patientId - 1].appointmentStatus = 1; // Mark as appointment scheduled
+    printf("Appointment scheduled successfully for patient ID %d!\n", patientId);
+}
+
+// Function to view appointments
+void viewAppointments() {
+    if (patientCount == 0) {
+        printf("No patients available!\n");
+        return;
+    }
+
+    printf("\nScheduled Appointments:\n");
+    for (int i = 0; i < patientCount; i++) {
+        if (patients[i].appointmentStatus == 1) {
+            printf("Patient ID: %d, Name: %s, Age: %d, Gender: %c\n", 
+                    patients[i].id, patients[i].name, patients[i].age, patients[i].gender);
+        }
+    }
+}
+
+// Main function to display menu and manage user input
+int main() {
+    int choice;
+    do {
+        // Display menu options
+        printf("\nMedical Management System\n");
+        printf("1. Add Patient\n");
+        printf("2. View Patients\n");
+        printf("3. Schedule Appointment\n");
+        printf("4. View Appointments\n");
+        printf("5. Exit\n");
+        printf("Enter your choice: ");
+        scanf("%d", &choice);
+
+        switch (choice) {
+            case 1:
+                addPatient();
+                break;
+            case 2:
+                viewPatients();
+                break;
+            case 3:
+                scheduleAppointment();
+                break;
+            case 4:
+                viewAppointments();
+                break;
+            case 5:
+                printf("Exiting system...\n");
+                break;
+            default:
+                printf("Invalid choice! Please try again.\n");
+        }
+    } while (choice != 5);
+
+    return 0;
+}
